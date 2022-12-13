@@ -1,7 +1,7 @@
         var bConsultar = document.getElementById("consultar")
 
         bConsultar.addEventListener("click", function () {
-            axios.get("https://cafesus-despliegue-production-1e7c.up.railway.app/reservaciones")
+            axios.get("https://cafesus-despliegue-production-fd9e.up.railway.app/reservaciones")
                 .then(function (response) {
                     console.log(response);
                     tabla(response.data)
